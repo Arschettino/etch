@@ -1,0 +1,48 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.title {
+    padding: 10px;
+    text-align: center;
+    font-weight: 700;
+    font-size: 24px;
+}
+
+.sketch {
+    margin: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.buttons {
+    text-align:center;
+}
+
+.reset {
+    padding: 10px;
+
+}
+
+.sketch-box {
+    width:500px;
+    height:500px;
+    border: 3px solid black;
+    display: flex;
+    flex-direction: column;
+}
+
+.row {
+    display: flex;
+    flex: 1;
+}
+
+.pixel {
+    flex: 1;
+}
+
+.activated {
+    background-color: black;
+}
